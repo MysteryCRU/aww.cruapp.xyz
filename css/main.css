@@ -1,0 +1,35 @@
+
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  background-color: #efefef;
+}
+
+h1 {
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
+hr {
+  border-bottom: 5px solid #000;
+  width: 100px;
+}
+
+.platform {
+  width: 100%;
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.big {
+  font-size: 2em;
+}
+
+@media (min-width: 550px) {
+  .platform {
+    display: inline-block;
+  }
+}
